@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Puzzle Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app" class="container">
+        <h1 class="mt-5">Image Puzzle Generator</h1>
+
+        <input type="file" id="imageInput" accept="image/*" class="mt-4 mb-4" />
+        <button onclick="uploadImage()" class="btn btn-primary">Upload Image</button>
+
+        <div id="imageContainer" class="mb-4">
+            <img id="puzzleImage" alt="Uploaded Image" class="img-fluid" />
+        </div>
+
+        <button onclick="generatePuzzle()" class="btn btn-success">Generate Puzzle</button>
+
+        <a id="puzzleLink" href="#" target="_blank" class="btn btn-info" style="display: none;">Open Puzzle</a>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
 
