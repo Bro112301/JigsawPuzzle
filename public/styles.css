@@ -1,1 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#app {
+    text-align: center;
+}
+
+#imageContainer {
+    display: none;
+}
 
